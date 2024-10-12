@@ -1,0 +1,199 @@
+* {
+  font-family: sans serif;
+}
+body {
+  background-image: url(/web_site/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.Landing-page {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  height: 80vh;
+}
+.Landing-page > img {
+  margin: 60px 0px;
+}
+.Landing-page h1 {
+  color: #4e5358;
+  margin: 40px 0px;
+}
+.Landing-page p {
+  line-height: 1.8;
+  color: #4e5358a7;
+  margin: 30px auto;
+  max-width: 70%;
+}
+.Landing-page button {
+  padding: 15px 40px;
+  margin: 10px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Landing-page button:nth-of-type(1) {
+  background-color: #61cabc;
+}
+.Landing-page button:nth-of-type(2) {
+  background-color: #8896ff;
+}
+/*Responsive*/
+/*For small devices*/
+@media (max-width=557px) {
+  button {
+    margin: 30px auto;
+  }
+  .Landing-page > img {
+    max-width: 90px;
+    margin: 25px 25px;
+  }
+  .Landing-page h1 {
+    margin: 15px 0px;
+    font-size: 25px;
+  }
+  .Landing-page p {
+    line-height: 1.8;
+    margin: 10px auto;
+    max-width: 95%;
+  }
+}
+/*End heading page*/
+/*Start section one*/
+.container {
+  width: 80%;
+  margin: auto;
+}
+.section-one {
+  text-align: center;
+}
+.section-one h2 {
+  color: #4e5358;
+}
+.section-one p {
+  color: #6b6f74;
+  line-height: 1.8;
+}
+
+/*End section one*/
+/*Start section two*/
+.section-two {
+  display: flex;
+  /*par defaut flex direction:row*/
+  gap: 35px;
+  margin-top: 50px;
+}
+.section-two .box > p {
+  line-height: 1.8;
+}
+.section-two > div {
+  width: 50%;
+}
+.section-two > .col-img img {
+  max-width: 100%;
+  margin-left: -35px;
+}
+/*Responsive*/
+@media (max-width: 575px) {
+  .section-two {
+    flex-direction: column;
+  }
+  .section-two > div {
+    width: 100%;
+  }
+  .section-two > .col-img img {
+    margin: 0;
+  }
+  .section-two .col-texte {
+    text-align: center;
+  }
+}
+/*end section two*/
+/*Start section three*/
+.container {
+  width: 80%;
+  margin: auto;
+}
+.section-three {
+  text-align: center;
+}
+.section-three h2 {
+  color: #4e5358;
+}
+.section-three p {
+  color: #6b6f74;
+  line-height: 1.8;
+}
+/*End section three*/
+/*Start section four*/
+.section-four img {
+  max-width: 100%;
+  margin: 50px 0px;
+}
+/*End section four*/
+/*Start section five*/
+.section-five .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.section-five .container .card {
+  line-height: 1.8;
+}
+/*Responsive*/
+@media (max-width: 575px) {
+  .section-five .container {
+    flex-direction: column;
+  }
+}
+/*End section five*/
+/*Start section six*/
+.section-six .container {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.section-six > .container img {
+  max-width: 60%;
+  margin-left: -35px;
+}
+/*Responsive*/
+@media (max-width: 575px) {
+  .section-six .container {
+    flex-direction: column;
+  }
+}
+/*End section six*/
+/*Start footer*/
+footer {
+  background-color: #f5f6f8;
+}
+Footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+Footer .container > div > a {
+  display: block;
+  margin: 6px;
+}
+.sm img {
+  margin: 10px;
+}
+/*Responsive*/
+@media (max-width: 575) {
+  Footer .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/*End footer*/
